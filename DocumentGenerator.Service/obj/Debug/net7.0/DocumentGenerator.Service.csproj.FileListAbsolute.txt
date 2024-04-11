@@ -1,0 +1,12 @@
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/bin/Debug/net7.0/DocumentGenerator.Service.deps.json
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/bin/Debug/net7.0/DocumentGenerator.Service.dll
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/bin/Debug/net7.0/DocumentGenerator.Service.pdb
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.csproj.AssemblyReference.cache
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.AssemblyInfoInputs.cache
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.AssemblyInfo.cs
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.csproj.CoreCompileInputs.cache
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.dll
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/refint/DocumentGenerator.Service.dll
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.pdb
+/Users/richardheaton/repos/DocumentGenerator/DocumentGenerator.Service/obj/Debug/net7.0/ref/DocumentGenerator.Service.dll

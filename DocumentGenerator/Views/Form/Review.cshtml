@@ -1,0 +1,40 @@
+﻿@page
+@model DocumentGenerator.Models.FormModel
+@{}
+
+<h1>Please review all details:</h1>
+
+@using (Html.BeginForm("Complete", "Form", FormMethod.Post))
+{
+    <div class="form-group">
+        <div>
+            @Html.HiddenFor(x => x.Name, "Value")
+            @Html.DisplayFor(x => x.Name)
+
+            @Html.HiddenFor(x => x.Step1Model.Field1, "Value")
+            @Html.DisplayFor(x => x.Step1Model.Field1)
+            @Html.HiddenFor(x => x.Step1Model.Field2, "Value")
+            @Html.DisplayFor(x => x.Step1Model.Field2)
+
+            @Html.HiddenFor(x => x.Step2Model.Field1, "Value")
+            @Html.DisplayFor(x => x.Step2Model.Field1)
+            @Html.HiddenFor(x => x.Step2Model.Field2, "Value")
+            @Html.DisplayFor(x => x.Step2Model.Field2)
+
+            @Html.HiddenFor(x => x.Step3Model.Field1, "Value")
+            @Html.DisplayFor(x => x.Step3Model.Field1)
+            @Html.HiddenFor(x => x.Step3Model.Field2, "Value")
+            @Html.DisplayFor(x => x.Step3Model.Field2)
+
+            @Html.HiddenFor(x => x.Step4Model.Field1, "Value")
+            @Html.DisplayFor(x => x.Step4Model.Field1)
+            @Html.HiddenFor(x => x.Step4Model.Field2, "Value")
+            @Html.DisplayFor(x => x.Step4Model.Field2)
+        </div>
+    </div>
+
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+
+}

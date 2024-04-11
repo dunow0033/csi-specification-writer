@@ -1,0 +1,39 @@
+@page
+@model DocumentGenerator.Models.FormModel
+@{}
+
+<h1>Step2</h1>
+
+@using (Html.BeginForm("Step3", "Form", FormMethod.Post))
+{
+    <div class="form-group">
+        <div>
+            @Html.HiddenFor(x => x.Name, "Value")
+
+            @Html.HiddenFor(x => x.Step1Model.Field1, "Value")
+            @Html.HiddenFor(x => x.Step1Model.Field2, "Value")
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Step2Model.Field1)
+        </div>
+
+        <div>
+            @Html.TextBoxFor(model => model.Step2Model.Field1, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div>
+            @Html.LabelFor(m => m.Step2Model.Field2)
+        </div>
+
+        <div>
+            @Html.TextBoxFor(model => model.Step2Model.Field2, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div>
+        <input type="submit" value="Next" />
+    </div>
+
+}

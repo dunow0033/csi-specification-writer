@@ -1,0 +1,23 @@
+﻿@page
+@model DocumentGenerator.Models.FormModel
+@{}
+
+<h1>Let's get started!</h1>
+
+@using (Html.BeginForm("Step1", "Form", FormMethod.Post))
+{
+    <div class="form-group">
+        <div>
+            @Html.LabelFor(m => m.Name)
+        </div>
+
+        <div>
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div>
+        <input type="submit" value="Next" />
+    </div>
+
+}
