@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "csH/tfVUJvUCy9ij/etLvmdaC7KzTqbsVp3X92tCovr4txJqu2IqPkjXHKWrTjtAHgemKCrf1pA1ESxCE4LxPA==",
+  "dgSpecHash": "0kkD3sGjyg3m4p8nT3yiYeXhpMb1TGMLgjJD48kz0MuP0OELcOco/CXUeuDazz+m811//7SNtdZPt/h8ltyugg==",
   "success": true,
-  "projectFilePath": "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/DocumentGenerator.csproj",
+  "projectFilePath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/DocumentGenerator.csproj",
   "expectedPackageFiles": [
     "/Users/richardheaton/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/DocumentGenerator.csproj": {}
+    "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/DocumentGenerator.csproj": {}
   },
   "projects": {
-    "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/DocumentGenerator.csproj": {
+    "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/DocumentGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/DocumentGenerator.csproj",
+        "projectUniqueName": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/DocumentGenerator.csproj",
         "projectName": "DocumentGenerator",
-        "projectPath": "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/DocumentGenerator.csproj",
+        "projectPath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/DocumentGenerator.csproj",
         "packagesPath": "/Users/richardheaton/.nuget/packages/",
-        "outputPath": "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator/obj/",
+        "outputPath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/richardheaton/.nuget/NuGet/NuGet.Config"

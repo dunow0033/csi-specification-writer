@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dX4E65gZJR3ZsmJ0q/tugOdQeHAoD/57yUcLO7C1w2kn9G1MnTlNJXh5Vh/GbTjtzGi8bu+IXlkFxsY1TTqnZQ==",
+  "dgSpecHash": "jnAXzytCSZ8ZEZ1tUcOUcSa7YLVnPQd7JgqzGXxJzEYG6guu0Rsvn9FVuanjAXWISn41qMmTP/ycqIEFS7HFLQ==",
   "success": true,
-  "projectFilePath": "/Users/richardheaton/repos/DocumentGenerator_Old/DocumentGenerator.Tests/DocumentGenerator.Tests.csproj",
+  "projectFilePath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Tests/DocumentGenerator.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/richardheaton/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp/7.3.0.1/harfbuzzsharp.7.3.0.1.nupkg.sha512",
