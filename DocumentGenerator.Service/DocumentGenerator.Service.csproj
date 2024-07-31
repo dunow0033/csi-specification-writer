@@ -9,12 +9,45 @@
   <ItemGroup>
     <None Remove="Interfaces\" />
     <None Remove="Implementations\" />
+    <None Remove="Models\" />
+    <None Remove="Helpers\" />
+    <None Remove="Implementations\Step1\" />
+    <None Remove="Interfaces\Step1\" />
+    <None Remove="Interfaces\Step2\" />
+    <None Remove="Implementations\Step2\" />
+    <None Remove="Interfaces\Step3\" />
+    <None Remove="Implementations\Step3\" />
+    <None Remove="Interfaces\Step4\" />
+    <None Remove="Implementations\Step4\" />
+    <None Remove="Interfaces\Step5\" />
+    <None Remove="Implementations\Step5\" />
+    <None Remove="Interfaces\Step6\" />
+    <None Remove="Implementations\Step6\" />
+    <None Remove="Interfaces\Step7\" />
+    <None Remove="Implementations\Step7\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
     <Folder Include="Implementations\" />
+    <Folder Include="Models\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Implementations\Step1\" />
+    <Folder Include="Interfaces\Step1\" />
+    <Folder Include="Interfaces\Step2\" />
+    <Folder Include="Implementations\Step2\" />
+    <Folder Include="Interfaces\Step3\" />
+    <Folder Include="Implementations\Step3\" />
+    <Folder Include="Interfaces\Step4\" />
+    <Folder Include="Implementations\Step4\" />
+    <Folder Include="Interfaces\Step5\" />
+    <Folder Include="Implementations\Step5\" />
+    <Folder Include="Interfaces\Step6\" />
+    <Folder Include="Implementations\Step6\" />
+    <Folder Include="Interfaces\Step7\" />
+    <Folder Include="Implementations\Step7\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="QuestPDF" Version="2023.12.6" />
+    <PackageReference Include="FastExcel" Version="3.0.13" />
   </ItemGroup>
 </Project>

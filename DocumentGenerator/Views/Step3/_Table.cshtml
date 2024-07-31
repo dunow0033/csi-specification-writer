@@ -1,0 +1,36 @@
+﻿@model DocumentGenerator.Service.Models.Step3.Step3Model
+@{
+}
+
+<div class="card" style="margin: .5rem;">
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CurtainModel.DividerCurtain.CurtainStructure)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CurtainModel.DividerCurtain.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CurtainModel.DividerCurtain.Attachment)
+                </th>
+                <th></th>
+            </tr>
+
+
+            @if (Model != null && Model.CurtainList != null && Model.CurtainList.Count() > 0)
+            {
+                foreach (var curtain in Model.CurtainList)
+                {
+
+                    @await Html.PartialAsync("_Row.cshtml", curtain);
+                }
+            }
+            else
+            {
+                <td colspan="4" class="text-center"><b>No Data</b></td>
+            }
+        </table>
+    </div>
+</div>

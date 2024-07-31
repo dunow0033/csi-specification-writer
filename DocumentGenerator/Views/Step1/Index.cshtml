@@ -1,0 +1,202 @@
+@page
+@model DocumentGenerator.Service.Models.Step1.Step1Model
+@{}
+
+@section Scripts {
+    <script>$(document).ready(function () {
+
+            function set_cookie(name, value) {
+                document.cookie = name + '=' + value + '; Path=/;';
+            }
+            function delete_cookie(name) {
+                document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+            }
+            function getCookie(name) {
+                var dc = document.cookie;
+                var prefix = name + "=";
+                var begin = dc.indexOf("; " + prefix);
+                if (begin == -1) {
+                    begin = dc.indexOf(prefix);
+                    if (begin != 0) return null;
+                }
+                else {
+                    begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1) {
+                        end = dc.length;
+                    }
+                }
+                return decodeURI(dc.substring(begin + prefix.length, end));
+            }
+
+            function loadPage() {
+                var myCookie = getCookie("id");
+
+                if (myCookie != null) {
+                    $('#preExistingApplicationModal').modal('show');
+                }
+            }
+
+            function handleNew() {
+                delete_cookie('id')
+                //$("#step1form")[0].reset();
+                location.reload();
+            }
+
+            const btnNew = document.getElementById('btn-new');
+            btnNew.addEventListener('click', handleNew);
+
+            loadPage()
+        });</script>
+}
+
+<!-- Modal -->
+<div class="modal fade" id="preExistingApplicationModal" tabindex="-1" aria-labelledby="preExistingApplicationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="preExistingApplicationModalLabel">Would you like to Continue?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">It appears you have an application started but not completed. Would you like to continue or discard it and start a new one?</p>
+            </div>
+            <div class="modal-footer">
+                <button id="btn-continue" type="button" class="rounded-pill btn btn-lg" data-bs-dismiss="modal">Continue</button>
+                <button id="btn-new" type="button" class="rounded-pill btn btn-lg primary-background-color" data-bs-dismiss="modal" onclick="handleNew()">Start New</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form id="step1form" asp-controller="Step1" asp-action="Next" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Project Information</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.Date, "Date")
+                        @Html.TextBoxFor(t => t.ProjectInformation.Date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.Number, "Number")
+                        @Html.TextBoxFor(model => model.ProjectInformation.Number, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.Name, "Name")
+                        @Html.TextBoxFor(model => model.ProjectInformation.Name, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.Address, "Address")
+                        @Html.TextBoxFor(model => model.ProjectInformation.Address, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.Country, "Country")
+                        @Html.TextBoxFor(model => model.ProjectInformation.Country, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.StateProvidence, "State/Providence")
+                        @Html.TextBoxFor(model => model.ProjectInformation.StateProvidence, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProjectInformation.ZipPostalCode, "Zip/Postal Code")
+                        @Html.TextBoxFor(model => model.ProjectInformation.ZipPostalCode, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Architect Information</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ArchitectInformation.Name, "Name")
+                        @Html.TextBoxFor(model => model.ArchitectInformation.Name, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ArchitectInformation.Country, "Country")
+                        @Html.TextBoxFor(model => model.ArchitectInformation.Country, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ArchitectInformation.StateProvidence, "State / Providence")
+                        @Html.TextBoxFor(model => model.ArchitectInformation.StateProvidence, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ArchitectInformation.ZipPostalCode, "Zip / Postal Code")
+                        @Html.TextBoxFor(model => model.ArchitectInformation.ZipPostalCode, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">GPS Distributor</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.Name, "Name")
+                        @Html.TextBoxFor(model => model.GpsDistributor.Name, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.Address, "Address")
+                        @Html.TextBoxFor(model => model.GpsDistributor.Address, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.City, "City")
+                        @Html.TextBoxFor(model => model.GpsDistributor.City, new { @class = "form-control" })
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.Country, "Country")
+                        @Html.TextBoxFor(model => model.GpsDistributor.Country, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.State, "State/Providence")
+                        @Html.TextBoxFor(model => model.GpsDistributor.State, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.GpsDistributor.ZipCode, "Zip/Postal Code")
+                        @Html.TextBoxFor(model => model.GpsDistributor.ZipCode, new { @class = "form-control" })
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input id="step1SubmitButton" type="submit" value="Next" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+
+</form>

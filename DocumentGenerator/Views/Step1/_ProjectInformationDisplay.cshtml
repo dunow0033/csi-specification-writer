@@ -1,0 +1,44 @@
+﻿@model DocumentGenerator.Service.Models.Step1.ProjectInformation
+@{
+}
+
+<div class="row" style="padding: .75rem;">
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.Date, "Date")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.Date)</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.Number, "Number")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.Number)</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.Name, "Name")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.Name)</p>
+    </div>
+</div>
+
+<div class="row" style="padding: .75rem;">
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.Address, "Address")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.Address)</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.Country, "Country")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.Country)</p>
+    </div>
+</div>
+
+<div class="row" style="padding: .75rem;">
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.StateProvidence, "State/Providence")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.StateProvidence)</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">@Html.LabelFor(m => m.ZipPostalCode, "Zip/Postal Code")</h6>
+        <p class="card-text">@Html.DisplayFor(x => x.ZipPostalCode)</p>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
+using DocumentGenerator.Service.Models;
 using Microsoft.AspNetCore.Mvc;
-using DocumentGenerator.Models;
 
 namespace DocumentGenerator.Controllers;
 

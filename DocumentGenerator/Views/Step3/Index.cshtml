@@ -1,0 +1,35 @@
+@model DocumentGenerator.Service.Models.Step3.Step3Model
+@{}
+
+<!-- Button trigger modal -->
+<div class="secondary-background-color" style="padding: .5rem;">
+    <button type="button" class="rounded-pill btn btn-lg primary-background-color" data-bs-toggle="modal" data-bs-target="#curtainDividerModal">
+        <i class="bi bi-plus-lg"></i>
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="curtainDividerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Curtain</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            @await Html.PartialAsync("_Form.cshtml", Model.CurtainModel);
+
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_Table.cshtml", Model);
+
+<form asp-controller="Step3" asp-action="Navigate" method="post" enctype="multipart/form-data">
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input type="button" value="Back" onclick="location.href='@Url.Action("Index", "Step2")'" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Next" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+
+</form>

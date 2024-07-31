@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v7.0": {
       "DocumentGenerator.Service/1.0.0": {
         "dependencies": {
+          "FastExcel": "3.0.13",
           "QuestPDF": "2023.12.6"
         },
         "runtime": {
           "DocumentGenerator.Service.dll": {}
+        }
+      },
+      "FastExcel/3.0.13": {
+        "runtime": {
+          "lib/netstandard2.0/FastExcel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "HarfBuzzSharp/7.3.0.1": {
@@ -125,6 +134,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FastExcel/3.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v0gF9hMHBiAucW4xWXbB/KGQurTTbSCSQY2Y9C9oVNlR+9QCEyWAXhHtG+LhpLZPq+BML8IXYqP0Mkdpzj9TKQ==",
+      "path": "fastexcel/3.0.13",
+      "hashPath": "fastexcel.3.0.13.nupkg.sha512"
     },
     "HarfBuzzSharp/7.3.0.1": {
       "type": "package",

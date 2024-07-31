@@ -1,0 +1,129 @@
+@page
+@model DocumentGenerator.Service.Models.Step6.Step6Model
+@{}
+
+<form asp-controller="Step6" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Volleyball Equipment</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.TypeOfSystem, "Type of System")
+                        @Html.DropDownList("VolleyballEquipment.TypeOfSystem", (IEnumerable<SelectListItem>)ViewBag.TypeOfSystemOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.Telescoping, "Telescoping")
+                        @Html.DropDownList("VolleyballEquipment.Telescoping", (IEnumerable<SelectListItem>)ViewBag.TelescopingOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.MultiSport, "MultiSport")
+                        @Html.DropDownList("VolleyballEquipment.MultiSport", (IEnumerable<SelectListItem>)ViewBag.MultiSportOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.Quantity, "Quantity")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.Quantity, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.CourtSize, "Court Size")
+                        @Html.DropDownList("VolleyballEquipment.CourtSize", (IEnumerable<SelectListItem>)ViewBag.CourtSizeOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.Attachment, "Attachment")
+                        @Html.DropDownList("VolleyballEquipment.Attachment", (IEnumerable<SelectListItem>)ViewBag.AttachmentOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin: .75rem;">
+                        @Html.CheckBoxFor(model => model.VolleyballEquipment.SameTypeAndAttachment, new { @class = "form-check-input" })
+                        @Html.LabelFor(m => m.VolleyballEquipment.SameTypeAndAttachment, "Same Type and Attachment")
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.WidthFt, "Width Feet")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.WidthFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.WidthIn, "Width Inches")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.WidthIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.TrussHeightFt, "Truss Height Feet")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.TrussHeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.TrussHeightIn, "Truss Height Inches")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.TrussHeightIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.TrussSpacingFt, "Truss Spacing Feet")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.TrussSpacingFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipment.TrussSpacingIn, "Truss Spacing Inches")
+                        @Html.TextBoxFor(model => model.VolleyballEquipment.TrussSpacingIn, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Volleyball Equipment Accessories</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipmentAccessories.FloorCoveringType, "Floor Covering Type")
+                        @Html.DropDownList("VolleyballEquipmentAccessories.FloorCoveringType", (IEnumerable<SelectListItem>)ViewBag.FloorCoverTypeOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipmentAccessories.ProtectivePadding, "Protective Padding")
+                        @Html.DropDownList("VolleyballEquipmentAccessories.ProtectivePadding", (IEnumerable<SelectListItem>)ViewBag.ProtectivePaddingOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.VolleyballEquipmentAccessories.JudgesStand, "Judges Stand")
+                        @Html.DropDownList("VolleyballEquipmentAccessories.JudgesStand", (IEnumerable<SelectListItem>)ViewBag.JudesStandOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <h2>Storage Equipment</h2>
+                        <p>Does this need to be able to accomidate multiple storage equipments? Can the enter anything?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input type="button" value="Back" onclick="location.href='@Url.Action("Index", "Step5")'" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Next" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+</form>

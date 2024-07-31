@@ -1,0 +1,56 @@
+﻿@model DocumentGenerator.Service.Models.FormModel
+@{}
+
+<form asp-controller="Review" asp-action="Create" method="post" enctype="multipart/form-data">
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Project Information</h5>
+            @await Html.PartialAsync("~/Views/Step1/_ProjectInformationDisplay.cshtml", Model.Step1Model.ProjectInformation)
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Architect Information</h5>
+            @await Html.PartialAsync("~/Views/Step1/_ArchitectureInformationDisplay.cshtml", Model.Step1Model.ArchitectInformation)
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">GPS Distributor</h5>
+            @await Html.PartialAsync("~/Views/Step1/_GpsDistributorDisplay.cshtml", Model.Step1Model.GpsDistributor)
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Next</h5>
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Next</h5>
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Next</h5>
+        </div>
+    </div>
+
+    <div class="card" style="margin: 1rem;">
+        <div class="card-body">
+            <h5 class="card-title">Next</h5>
+        </div>
+    </div>
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input type="button" value="Back" onclick="location.href='@Url.Action("Index", "Step7")'" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Submit" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+
+</form>

@@ -1,0 +1,53 @@
+﻿@model DocumentGenerator.Service.Models.Step1.GpsDistributor
+@{
+}
+
+<div class="row">
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.Name, "Name")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.Name, new { @class = "form-control" })</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.Address, "Address")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.Address, new { @class = "form-control" })</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.City, "City")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.City, new { @class = "form-control" })</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.Country, "Country")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.Country, new { @class = "form-control" })</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.State, "State/Providence")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.State, new { @class = "form-control" })</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.ZipCode, "Zip/Postal Code")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.ZipCode, new { @class = "form-control" })</p>
+    </div>
+</div>
+

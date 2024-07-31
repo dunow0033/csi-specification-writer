@@ -1,23 +1,72 @@
 ﻿@page
-@model DocumentGenerator.Models.FormModel
+@model DocumentGenerator.Service.Models.FormModel
 @{}
 
 <h1>Let's get started!</h1>
 
-@using (Html.BeginForm("Step1", "Form", FormMethod.Post))
-{
-    <div class="form-group">
-        <div>
-            @Html.LabelFor(m => m.Name)
-        </div>
+<div>
+    <input id="startButton" type="button" value="Next" class="rounded-pill btn btn-lg" />
+</div>
 
-        <div>
-            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
-        </div>
-    </div>
+@section Scripts{
+    <script>$(document).ready(function () {
+            //function getCookie(cname) {
+            //    var name = cname + "=";
+            //    var ca = document.cookie.split(';');
+            //    for (var i = 0; i < ca.length; i++) {
+            //        var c = ca[i];
+            //        while (c.charAt(0) == ' ') {
+            //            c = c.substring(1);
+            //        }
+            //        if (c.indexOf(name) == 0) {
+            //            return c.substring(name.length, c.length);
+            //        }
+            //    }
+            //    return "";
+            //}
 
-    <div>
-        <input type="submit" value="Next" />
-    </div>
+            //function setCookie(cname, cvalue, exdays) {
+            //    var d = new Date();
+            //    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            //    var expires = "expires=" + d.toUTCString();
+            //    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+            //}
 
+            //if (getCookie("cookiesshow") !== "false") {
+            //    setCookie("cookiesshow", true, 3650);
+            //    //document.cookie = "cookiesshow=true";
+            //}
+
+
+
+
+
+            //$("#cookiebutton").click(function () {
+            //    var cookie = getCookie("cookiesshow");
+            //    console.log(cookie);
+            //    if (cookie === "true") {
+            //        $("#cookiebar").hide(1000);
+            //        setCookie("cookiesshow", false, 3650);
+            //        //document.cookie = "cookiesshow=false";
+            //    }
+            //});
+
+
+
+
+
+
+
+            $("#startButton").click(function (e) {
+                var valdata = localStorage.getItem("id")
+
+                $.ajax({
+                    url: "/Form/Start",
+                    type: "POST",
+                    dataType: 'json',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify({ id: valdata })
+                });
+            });
+        });</script>
 }

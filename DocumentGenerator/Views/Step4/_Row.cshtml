@@ -1,0 +1,25 @@
+﻿@model DocumentGenerator.Service.Models.Step4.BattingMultiSportThrowCagesModel
+@{
+}
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => Model.BattingMultiSportThrowCages.Structure)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.BattingMultiSportThrowCages.Quantity)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.BattingMultiSportThrowCages.Attachment)
+    </td>
+    <td>
+        <a href="@Url.Action("Edit", "Step3")" class="rounded-pill btn btn-lg primary-background-color">
+            <i class="bi bi-pencil-fill"></i>
+        </a>
+
+        <a href="@Url.Action("Delete", "Step3")" class="rounded-pill btn btn-lg primary-background-color">
+            <i class="bi bi-trash3-fill"></i>
+        </a>
+    </td>
+
+</tr>

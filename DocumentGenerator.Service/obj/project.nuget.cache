@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gcjS9qs57Z1Ph81aN27Yy+74ETdEBjxFaV7HZMoC6aTal6oEXf8dPq+Eos51oU9juqA4p0Lu7pExzaPwDlEIHg==",
+  "dgSpecHash": "/eD9xxk9yck=",
   "success": true,
   "projectFilePath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Service/DocumentGenerator.Service.csproj",
   "expectedPackageFiles": [
+    "/Users/richardheaton/.nuget/packages/fastexcel/3.0.13/fastexcel.3.0.13.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp/7.3.0.1/harfbuzzsharp.7.3.0.1.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.1/harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.1/harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512",

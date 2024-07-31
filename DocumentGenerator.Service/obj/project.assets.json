@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "FastExcel/3.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FastExcel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FastExcel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "HarfBuzzSharp/7.3.0.1": {
         "type": "package",
         "dependencies": {
@@ -149,6 +162,19 @@
     }
   },
   "libraries": {
+    "FastExcel/3.0.13": {
+      "sha512": "v0gF9hMHBiAucW4xWXbB/KGQurTTbSCSQY2Y9C9oVNlR+9QCEyWAXhHtG+LhpLZPq+BML8IXYqP0Mkdpzj9TKQ==",
+      "type": "package",
+      "path": "fastexcel/3.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastexcel.3.0.13.nupkg.sha512",
+        "fastexcel.nuspec",
+        "lib/netstandard2.0/FastExcel.dll",
+        "lib/netstandard2.0/FastExcel.xml"
+      ]
+    },
     "HarfBuzzSharp/7.3.0.1": {
       "sha512": "/6z6TQBqWWbVpLUw7E/82HZKLT3OAzg/w6z8I6JFNFcYa3nM9RnZ8XGos9nD4buAzThLHpqPw/rb8FdZXEORAQ==",
       "type": "package",
@@ -442,6 +468,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FastExcel >= 3.0.13",
       "QuestPDF >= 2023.12.6"
     ]
   },
@@ -464,7 +491,6 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -477,12 +503,21 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "FastExcel": {
+            "target": "Package",
+            "version": "[3.0.13, )"
+          },
           "QuestPDF": {
             "target": "Package",
             "version": "[2023.12.6, )"
@@ -504,7 +539,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
       }
     }
   }

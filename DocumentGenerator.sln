@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGenerator.Service",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGenerator.Tests", "DocumentGenerator.Tests\DocumentGenerator.Tests.csproj", "{FB992BAB-0B6E-4280-A8AE-19BF3FE0412C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentGenerator.Data", "DocumentGenerator.Data\DocumentGenerator.Data.csproj", "{8166A2A0-B378-49DD-92F5-3E0917DF4513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FB992BAB-0B6E-4280-A8AE-19BF3FE0412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB992BAB-0B6E-4280-A8AE-19BF3FE0412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB992BAB-0B6E-4280-A8AE-19BF3FE0412C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8166A2A0-B378-49DD-92F5-3E0917DF4513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8166A2A0-B378-49DD-92F5-3E0917DF4513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8166A2A0-B378-49DD-92F5-3E0917DF4513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8166A2A0-B378-49DD-92F5-3E0917DF4513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,35 @@
+﻿@model DocumentGenerator.Service.Models.Step1.ArchitectInformation
+@{
+}
+
+<div class="row">
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.Name, "Name")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.Name, new { @class = "form-control" })</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.Country, "Country")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.Country, new { @class = "form-control" })</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.StateProvidence, "State / Providence")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.StateProvidence, new { @class = "form-control" })</p>
+    </div>
+
+    <div class="col">
+        <h6 class="card-subtitle">
+            @Html.LabelFor(m => m.ZipPostalCode, "Zip / Postal Code")
+        </h6>
+        <p class="card-text">@Html.DisplayFor(model => model.ZipPostalCode, new { @class = "form-control" })</p>
+    </div>
+</div>

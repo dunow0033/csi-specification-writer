@@ -13,8 +13,55 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Views\Form\" />
+    <None Remove="Views\Step1\" />
+    <None Remove="Views\Step2\" />
+    <None Remove="Views\Step3\" />
+    <None Remove="Views\Step4\" />
+    <None Remove="Views\Step5\" />
+    <None Remove="Views\Step6\" />
+    <None Remove="Views\Step7\" />
+    <None Remove="Views\Review\" />
+    <None Remove="Views\Complete\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\DropdownOptions\" />
+    <None Remove="Helpers\DropdownOptions\Interfaces\" />
+    <None Remove="Helpers\DropdownOptions\Implementations\" />
+    <None Remove="Views\Shared\Review\" />
+    <None Remove="Views\Shared\Review\Step1\" />
+    <None Remove="Views\Shared\Review\Step2\" />
+    <None Remove="Views\Shared\Review\Step3\" />
+    <None Remove="Views\Shared\Review\Step4\" />
+    <None Remove="Views\Shared\Review\Step5\" />
+    <None Remove="Views\Shared\Review\Step6\" />
+    <None Remove="Views\Shared\Review\Step7\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Form\" />
+    <Folder Include="Views\Step1\" />
+    <Folder Include="Views\Step2\" />
+    <Folder Include="Views\Step3\" />
+    <Folder Include="Views\Step4\" />
+    <Folder Include="Views\Step5\" />
+    <Folder Include="Views\Step6\" />
+    <Folder Include="Views\Step7\" />
+    <Folder Include="Views\Review\" />
+    <Folder Include="Views\Complete\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\DropdownOptions\" />
+    <Folder Include="Helpers\DropdownOptions\Interfaces\" />
+    <Folder Include="Helpers\DropdownOptions\Implementations\" />
+    <Folder Include="Views\Shared\Review\" />
+    <Folder Include="Views\Shared\Review\Step1\" />
+    <Folder Include="Views\Shared\Review\Step2\" />
+    <Folder Include="Views\Shared\Review\Step3\" />
+    <Folder Include="Views\Shared\Review\Step4\" />
+    <Folder Include="Views\Shared\Review\Step5\" />
+    <Folder Include="Views\Shared\Review\Step6\" />
+    <Folder Include="Views\Shared\Review\Step7\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentGenerator.Service\DocumentGenerator.Service.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

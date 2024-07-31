@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Data/DocumentGenerator.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Data/DocumentGenerator.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Data/DocumentGenerator.Data.csproj",
+        "projectName": "DocumentGenerator.Data",
+        "projectPath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Data/DocumentGenerator.Data.csproj",
+        "packagesPath": "/Users/richardheaton/.nuget/packages/",
+        "outputPath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/richardheaton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

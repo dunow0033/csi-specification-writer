@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jnAXzytCSZ8ZEZ1tUcOUcSa7YLVnPQd7JgqzGXxJzEYG6guu0Rsvn9FVuanjAXWISn41qMmTP/ycqIEFS7HFLQ==",
+  "dgSpecHash": "2FerUe95XCs=",
   "success": true,
   "projectFilePath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Tests/DocumentGenerator.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/richardheaton/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/richardheaton/.nuget/packages/fastexcel/3.0.13/fastexcel.3.0.13.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp/7.3.0.1/harfbuzzsharp.7.3.0.1.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.1/harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512",
     "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.1/harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512",

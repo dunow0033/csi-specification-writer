@@ -1,0 +1,118 @@
+﻿@model DocumentGenerator.Service.Models.Step3.CurtainModel
+@{
+}
+<form asp-controller="Step3" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="modal-body">
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Divider Curtain</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.CurtainStructure, "Structure")
+                        @Html.DropDownList("DividerCurtain.CurtainStructure", (IEnumerable<SelectListItem>)ViewBag.StructureOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.Quantity, "Quantity")
+                        @Html.TextBoxFor(model => model.DividerCurtain.Quantity, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.HeightFt, "Height Feet")
+                        @Html.TextBoxFor(model => model.DividerCurtain.HeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.HeightIn, "Height Inches")
+                        @Html.TextBoxFor(model => model.DividerCurtain.HeightIn, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.WidthFt, "Width Feet")
+                        @Html.TextBoxFor(model => model.DividerCurtain.WidthFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.WidthIn, "Width Inches")
+                        @Html.TextBoxFor(model => model.DividerCurtain.WidthIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.Attachment, "Attachment")
+                        @Html.DropDownList("DividerCurtain.Attachment", (IEnumerable<SelectListItem>)ViewBag.AttachmentOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin: .75rem;">
+                        @Html.CheckBoxFor(model => model.DividerCurtain.AllTheSameTypeAndAttachment, new { @class = "form-check-input" })
+                        @Html.LabelFor(m => m.DividerCurtain.AllTheSameTypeAndAttachment, "Same Type and Attachment")
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.TrussHeightFt, "Truss Height Feet")
+                        @Html.TextBoxFor(model => model.DividerCurtain.TrussHeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.TrussHeightIn, "Truss Height Inches")
+                        @Html.TextBoxFor(model => model.DividerCurtain.TrussHeightIn, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.TrussSpacingFt, "Truss Spacing Feet")
+                        @Html.TextBoxFor(model => model.DividerCurtain.TrussSpacingFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.DividerCurtain.TrussSpacingIn, "Truss Spacing Inches")
+                        @Html.TextBoxFor(model => model.DividerCurtain.TrussSpacingIn, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Divider Curtain Accessories</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.CurtainAccessories.VinylHeight, "Vinyl Height")
+                        @Html.TextBoxFor(model => model.CurtainAccessories.VinylHeight, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.CurtainAccessories.VinylWeight, "Vinyl Weight")
+                        @Html.DropDownList("CurtainAccessories.VinylWeight", (IEnumerable<SelectListItem>)ViewBag.VinylWeightOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.CurtainAccessories.Operation, "Operation")
+                        @Html.DropDownList("CurtainAccessories.Operation", (IEnumerable<SelectListItem>)ViewBag.OperationOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.CurtainAccessories.CurtainLock, "Curtain Lock")
+                        @Html.DropDownList("CurtainAccessories.CurtainLock", (IEnumerable<SelectListItem>)ViewBag.CurtainLockOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal-footer">
+        <input type="button" value="Close" data-bs-dismiss="modal" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Save" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+</form>

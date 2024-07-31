@@ -1,0 +1,36 @@
+﻿@model DocumentGenerator.Service.Models.Step4.Step4Model
+@{
+}
+
+<div class="card" style="margin: .5rem;">
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.BattingMultiSportThrowCagesModel.BattingMultiSportThrowCages.Structure)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BattingMultiSportThrowCagesModel.BattingMultiSportThrowCages.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BattingMultiSportThrowCagesModel.BattingMultiSportThrowCages.Attachment)
+                </th>
+                <th></th>
+            </tr>
+
+
+            @if (Model != null && Model.BattingMultiSportThrowCagesList != null && Model.BattingMultiSportThrowCagesList.Count() > 0)
+            {
+                foreach (var item in Model.BattingMultiSportThrowCagesList)
+                {
+
+                    @await Html.PartialAsync("_Row.cshtml", item);
+                }
+            }
+            else
+            {
+                <td colspan="4" class="text-center"><b>No Data</b></td>
+            }
+        </table>
+    </div>
+</div>

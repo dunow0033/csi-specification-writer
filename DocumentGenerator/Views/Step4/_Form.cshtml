@@ -1,0 +1,125 @@
+﻿@model DocumentGenerator.Service.Models.Step4.BattingMultiSportThrowCagesModel
+@{
+}
+
+<form asp-controller="Step4" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="modal-body">
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Batting, Multisport, or Throw Cages</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.Structure, "Structure")
+                        @Html.DropDownList("BattingMultiSportThrowCages.Structure", (IEnumerable<SelectListItem>)ViewBag.StructureOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.Quantity, "Quantity")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.Quantity, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.HeightFt, "Height Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.HeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.HeightIn, "Height Inches")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.HeightIn, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.WidthFt, "Width Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.WidthFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.WidthIn, "Width Inches")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.WidthIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.LengthFt, "Length Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.LengthFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.LengthIn, "Length Inches")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.LengthIn, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.TrussHeightFt, "Truss Height Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.TrussHeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.TrussHeightIn, "Truss Height Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.TrussHeightIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.Attachment, "Attachment")
+                        @Html.DropDownList("BattingMultiSportThrowCages.Attachment", (IEnumerable<SelectListItem>)ViewBag.AttachmentOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="margin: .75rem;">
+                        @Html.CheckBoxFor(m => m.BattingMultiSportThrowCages.SameTypeAndAttachment, new { @class = "form-check-input" })
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.SameTypeAndAttachment, "Same Type and Attachment")
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.TrussSpacingFt, "Truss Spacing Feet")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.TrussSpacingFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCages.TrussSpacingIn, "Truss Spacing Inches")
+                        @Html.TextBoxFor(m => m.BattingMultiSportThrowCages.TrussSpacingIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Batting, Multisport or Throw Cages Accessories</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCagesAccessories.Operation, "Operation")
+                        @Html.DropDownList("BattingMultiSportThrowCagesAccessories.Operation", (IEnumerable<SelectListItem>)ViewBag.OperationOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCagesAccessories.CurtainLock, "Curtain Lock")
+                        @Html.DropDownList("BattingMultiSportThrowCagesAccessories.CurtainLock", (IEnumerable<SelectListItem>)ViewBag.CurtainLockOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BattingMultiSportThrowCagesAccessories.LiftStyle, "Life Style")
+                        @Html.DropDownList("BattingMultiSportThrowCagesAccessories.LiftStyle", (IEnumerable<SelectListItem>)ViewBag.LiftStyleOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <input type="button" value="Close" data-bs-dismiss="modal" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Save" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+</form>

@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets/DocumentGenerator.bundle.scp.css"
     },
     {
-      "Id": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
-    },
-    {
       "Id": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

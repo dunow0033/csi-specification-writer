@@ -1,0 +1,143 @@
+@page
+@model DocumentGenerator.Service.Models.Step2.Step2Model
+@{}
+
+<form id="step2form" asp-controller="Step2" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Basketball Structure</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.BasketBallStructure, "Basketball Structure")
+                        @Html.DropDownList("BasketballStructure.BasketBallStructure", (IEnumerable<SelectListItem>)ViewBag.Options, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.Quantity, "Quantity")
+                        @Html.TextBoxFor(model => model.BasketballStructure.Quantity, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.Description, "Description")
+                        @Html.DropDownList("BasketballStructure.Description", (IEnumerable<SelectListItem>)ViewBag.DescriptionOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.ExtensionLength, "Extension Length")
+                        @Html.DropDownList("BasketballStructure.ExtensionLength", (IEnumerable<SelectListItem>)ViewBag.ExtensionLengthOptionsForPortable, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.Operation, "Operation")
+                        @Html.DropDownList("BasketballStructure.Operation", (IEnumerable<SelectListItem>)ViewBag.OperationOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.LevelOfUse, "Level of Use")
+                        @Html.DropDownList("BasketballStructure.LevelOfUse", (IEnumerable<SelectListItem>)ViewBag.LevelOfUseOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.ExtensionLength, "Extension Length")
+                        @Html.DropDownList("BasketballStructure.ExtensionLength", (IEnumerable<SelectListItem>)ViewBag.ExtensionLengthOptionsForWallmount, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.Type, "Type")
+                        @Html.DropDownList("BasketballStructure.Type", (IEnumerable<SelectListItem>)ViewBag.TypeOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.FoldingDirection, "Folding Direction")
+                        @Html.DropDownList("BasketballStructure.FoldingDirection", (IEnumerable<SelectListItem>)ViewBag.FoldingDirectionOptionsForWallmount, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.TrussHeightFeet, "Truss Height Feet")
+                        @Html.TextBoxFor(model => model.BasketballStructure.TrussHeightFeet, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.TrussHeightInches, "Truss Height Inches")
+                        @Html.TextBoxFor(model => model.BasketballStructure.TrussHeightInches, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.FoldingDirection, "Folding Direction")
+                        @Html.DropDownList("BasketballStructure.FoldingDirection", (IEnumerable<SelectListItem>)ViewBag.FoldingDirectionOptionsForCeilingSuspendedUnit, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballStructure.BracedType, "Braced Type")
+                        @Html.DropDownList("BasketballStructure.BracedType", (IEnumerable<SelectListItem>)ViewBag.BracedTypeOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Basketball Accessories</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.Backboard, "Backboard")
+                        @Html.DropDownList("BasketballAccessories.Backboard", (IEnumerable<SelectListItem>)ViewBag.BackboardOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.Rim, "Rim")
+                        @Html.DropDownList("BasketballAccessories.Rim", (IEnumerable<SelectListItem>)ViewBag.RimOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.EdgePadding, "Edge Padding")
+                        @Html.DropDownList("BasketballAccessories.EdgePadding", (IEnumerable<SelectListItem>)ViewBag.EdgePaddingOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.Operation1, "Operation")
+                        @Html.DropDownList("BasketballAccessories.Operation1", (IEnumerable<SelectListItem>)ViewBag.AccessoriesOperationOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.HeightAdjuster, "Height Adjuster")
+                        @Html.DropDownList("BasketballAccessories.HeightAdjuster", (IEnumerable<SelectListItem>)ViewBag.HeightAdjusterOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.BasketballAccessories.SafeStop, "Safe Stop")
+                        @Html.DropDownList("BasketballAccessories.SafeStop", (IEnumerable<SelectListItem>)ViewBag.SafeStopOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                @*<div>
+                        @Html.LabelFor(m => m.BasketballAccessories.Operation2, "Operation 2")
+                        @Html.TextBoxFor(model => model.BasketballAccessories.Operation2, new { @class = "form-control" })
+                    </div>*@
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input type="button" value="Back" onclick="location.href='@Url.Action("Index", "Step1")'" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Next" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+
+</form>

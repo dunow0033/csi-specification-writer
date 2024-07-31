@@ -1,0 +1,97 @@
+@page
+@model DocumentGenerator.Service.Models.Step5.Step5Model
+@{}
+
+<form asp-controller="Step5" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Protective Padding</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.FireRating, "Fire Rating")
+                        @Html.DropDownList("ProtectivePadding.FireRating", (IEnumerable<SelectListItem>)ViewBag.FireRatingOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.ImpactRating, "Impact Rating")
+                        @Html.DropDownList("ProtectivePadding.ImpactRating", (IEnumerable<SelectListItem>)ViewBag.ImpactRatingOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.Construction, "Construction")
+                        @Html.DropDownList("ProtectivePadding.Construction", (IEnumerable<SelectListItem>)ViewBag.ConstructionOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.Quantity, "Quantity")
+                        @Html.TextBoxFor(model => model.ProtectivePadding.Quantity, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.HeightFt, "Height Feet")
+                        @Html.TextBoxFor(model => model.ProtectivePadding.HeightFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.HeightIn, "Height Inches")
+                        @Html.TextBoxFor(model => model.ProtectivePadding.HeightIn, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.WidthFt, "Width Feet")
+                        @Html.TextBoxFor(model => model.ProtectivePadding.WidthFt, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.WidthIn, "Width Inches")
+                        @Html.TextBoxFor(model => model.ProtectivePadding.WidthIn, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePadding.Attachment, "Attachment")
+                        @Html.DropDownList("ProtectivePadding.Attachment", (IEnumerable<SelectListItem>)ViewBag.AttachmentOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row" style="margin: .75rem;">
+                    <div class="col">
+                        @Html.CheckBoxFor(model => model.ProtectivePadding.SameTypeAndAttachment, new { @class = "form-check-input" })
+                        @Html.LabelFor(m => m.ProtectivePadding.SameTypeAndAttachment, "Same Type and Attachment")
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="margin: .5rem;">
+            <div class="card-body">
+                <h5 class="card-title">Protective Padding</h5>
+
+                <div class="row">
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePaddingAccessories.Graphics, "Graphics")
+                        @Html.DropDownList("ProtectivePaddingAccessories.Graphics", (IEnumerable<SelectListItem>)ViewBag.GraphicsOptions, new { @class = "form-control" })
+                    </div>
+
+                    <div class="col">
+                        @Html.LabelFor(m => m.ProtectivePaddingAccessories.CutOutRequired, "Cut Out Required")
+                        @Html.DropDownList("ProtectivePaddingAccessories.CutOutRequired", (IEnumerable<SelectListItem>)ViewBag.CutOutRequiredOptions, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 d-flex align-items-end float-end">
+        <input type="button" value="Back" onclick="location.href='@Url.Action("Index", "Step4")'" class="rounded-pill btn btn-lg" />
+        <input type="submit" value="Next" class="rounded-pill btn btn-lg primary-background-color" />
+    </div>
+
+</form>

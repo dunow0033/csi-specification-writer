@@ -10,38 +10,20 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DocumentGenerator
 build_property.RootNamespace = DocumentGenerator
 build_property.ProjectDir = /Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/richardheaton/repos/csi-specification-generator/DocumentGenerator
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Complete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9Db21wbGV0ZS5jc2h0bWw=
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Complete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxldGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Review.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9SZXZpZXcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Step1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9TdGVwMS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Step2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9TdGVwMi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Step3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9TdGVwMy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Form/Step4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9TdGVwNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Home/Index.cshtml]
@@ -52,12 +34,132 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step2/_BasketballAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwMi9fQmFza2V0YmFsbEFjY2Vzc29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step2/_BasketballStructure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwMi9fQmFza2V0YmFsbFN0cnVjdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step3/_CurtainAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwMy9fQ3VydGFpbkFjY2Vzc29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step3/_DividerCurtain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwMy9fRGl2aWRlckN1cnRhaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step4/_BattingMultiSportThrowCages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNC9fQmF0dGluZ011bHRpU3BvcnRUaHJvd0NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step4/_BattingMultiSportThrowCagesAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNC9fQmF0dGluZ011bHRpU3BvcnRUaHJvd0NhZ2VzQWNjZXNzb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step5/_ProtectivePadding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNS9fUHJvdGVjdGl2ZVBhZGRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step5/_ProtectivePaddingAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNS9fUHJvdGVjdGl2ZVBhZGRpbmdBY2Nlc3Nvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step6/_VolleyballEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNi9fVm9sbGV5YmFsbEVxdWlwbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step6/_VolleyballEquipmentAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNi9fVm9sbGV5YmFsbEVxdWlwbWVudEFjY2Vzc29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step7/MatStorageAccessories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNy9NYXRTdG9yYWdlQWNjZXNzb3JpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/Review/Step7/MatStorageSystems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1Jldmlldy9TdGVwNy9NYXRTdG9yYWdlU3lzdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step1/_ArchitectureInformationDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDEvX0FyY2hpdGVjdHVyZUluZm9ybWF0aW9uRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step1/_GpsDistributorDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDEvX0dwc0Rpc3RyaWJ1dG9yRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step1/_ProjectInformationDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDEvX1Byb2plY3RJbmZvcm1hdGlvbkRpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step3/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDMvX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step3/_Row.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDMvX1Jvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step3/_Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDMvX1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step4/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step4/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDQvX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step4/_Row.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDQvX1Jvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step4/_Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDQvX1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step5/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step6/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDYvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step6/_StorageEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDYvX1N0b3JhZ2VFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/Step7/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RlcDcvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator/Views/_ViewImports.cshtml]
