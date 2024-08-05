@@ -23,3 +23,16 @@
 /Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.pdb
 /Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Service/obj/Debug/net7.0/ref/DocumentGenerator.Service.dll
 /Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Service/obj/Debug/net7.0/DocumentGenerator.Service.sourcelink.json
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\bin\Debug\net7.0\DocumentGenerator.Service.deps.json
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\bin\Debug\net7.0\DocumentGenerator.Service.dll
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\bin\Debug\net7.0\DocumentGenerator.Service.pdb
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.AssemblyInfo.cs
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.sourcelink.json
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.dll
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\refint\DocumentGenerator.Service.dll
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\DocumentGenerator.Service.pdb
+C:\Users\Admin\source\repos\csi-specification-generator\DocumentGenerator.Service\obj\Debug\net7.0\ref\DocumentGenerator.Service.dll

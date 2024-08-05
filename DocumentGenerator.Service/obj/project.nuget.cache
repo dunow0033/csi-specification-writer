@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "/eD9xxk9yck=",
+  "dgSpecHash": "SbW4M/VUbBKLzEfRXtXVWXq0a+s04+QJ2HmStXk7jxs8sIbg7bBfdlwiXOvriTPkKBjO6AOte2+JGglSHIBn/w==",
   "success": true,
-  "projectFilePath": "/Users/richardheaton/repos/csi-specification-generator/DocumentGenerator.Service/DocumentGenerator.Service.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\csi-specification-generator\\DocumentGenerator.Service\\DocumentGenerator.Service.csproj",
   "expectedPackageFiles": [
-    "/Users/richardheaton/.nuget/packages/fastexcel/3.0.13/fastexcel.3.0.13.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/harfbuzzsharp/7.3.0.1/harfbuzzsharp.7.3.0.1.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.1/harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/harfbuzzsharp.nativeassets.win32/7.3.0.1/harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/questpdf/2023.12.6/questpdf.2023.12.6.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/skiasharp/2.88.7/skiasharp.2.88.7.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/skiasharp.harfbuzz/2.88.7/skiasharp.harfbuzz.2.88.7.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/skiasharp.nativeassets.macos/2.88.7/skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
-    "/Users/richardheaton/.nuget/packages/skiasharp.nativeassets.win32/2.88.7/skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\fastexcel\\3.0.13\\fastexcel.3.0.13.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\harfbuzzsharp\\7.3.0.1\\harfbuzzsharp.7.3.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.1\\harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.1\\harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\questpdf\\2023.12.6\\questpdf.2023.12.6.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp\\2.88.7\\skiasharp.2.88.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.7\\skiasharp.harfbuzz.2.88.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.7\\skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.7\\skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
   ],
   "logs": []
 }
